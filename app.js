@@ -11,7 +11,7 @@ app.listen(3000, () => console.log("Escuchando puerto 3000"));
 app.get("/", (req, res) => {
     res.send("¡Hola, Mundo!");
 });
-app.get("/archivo", (req, res) => {
+app.get("/home", (req, res) => {
     res.sendFile(path.join(__dirname, "views/index.html"))
 });
 app.get("/ofertas", (req, res) => {
