@@ -14,3 +14,6 @@ app.get("/", (req, res) => {
 app.get("/archivo", (req, res) => {
     res.sendFile(path.join(__dirname, "views/index.html"))
 });
+app.get("/ofertas", (req, res) => {
+    res.send("página de ofertas")
+});
