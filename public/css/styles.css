@@ -1,10 +1,49 @@
-/* CSS > basado en SELECTORES*/
+/* CSS > basado en SELECTORES
+.azul{
+    color:#03264C}; 
+.celeste{
+    color:#1259c3}; 
+.gris-oscuro{
+    color:#666}; 
+.gris-claro{
+    color:#ebebeb};
+.verde{
+    color:#39b54a};*/
+.white-color {
+    color:#ffff;
+}
+.logo{
+    text-align: left;
+}
+header {
+    background-color:#EAC926;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+header div{
+    text-align: center;
+}
+p{
+    font-size: 16mp;
+}
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+i {
+    background-color:#1259c3;
+    background-size: cover;
+    padding: 5px;
+}
 .price {
-    font-size: 16px;
+    font-size: 18px;
 }
 .texto-footer{
     text-align: justify;
 }
 .titulo-footer{
     font-weight: bold;
+}
+.text-center{
+    justify-content: center;
 }
