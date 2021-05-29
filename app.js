@@ -16,5 +16,5 @@ app.get("/", (req, res) => {
 });
 app.get("/home", (req, res) => devolverVistas(res, "views/index.html"));
 app.get("/ofertas", (req, res) => {
-    res.send("Página de ofertas")
+    res.send("Acá se verá la página de ofertas")
 });
