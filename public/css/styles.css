@@ -1,15 +1,13 @@
 /* CSS > basado en SELECTORES
-.azul{
-    color:#03264C}; 
-.celeste{
-    color:#1259c3}; 
-.verde{
-    color:#39b54a};*/
+.azul #03264C; 
+.celeste :#1259c3; 
+.verde :#39b54a*/
 .white-color {
     color:#ffff;
 }
 .logo {
     text-align: left;
+    margin-right: 20px;
 }
 header {
     background-color:#EAC926;
