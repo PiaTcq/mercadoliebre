@@ -49,3 +49,9 @@ footer i {
     margin-bottom: 10px;
     font-size: 2em;
 }
+hr {
+    border: 0;
+    border-top: 2px solid #999; 
+    border-bottom: 2px solid #333;
+    height:0;
+    }
