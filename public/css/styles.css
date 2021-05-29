@@ -5,9 +5,13 @@
 .white-color {
     color:#ffff;
 }
-.logo {
+#logo {
     text-align: left;
     margin-right: 20px;
+}
+#banner {
+    max-width: 100%;
+    height: auto;
 }
 header {
     background-color:#EAC926;
@@ -16,6 +20,9 @@ header {
 }
 .align-center {
     text-align: center;
+}
+ul {
+    text-align: left;
 }
 .align-justify {
     text-align: justify;
