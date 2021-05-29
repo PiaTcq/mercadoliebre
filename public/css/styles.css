@@ -7,10 +7,10 @@
 }
 #logo {
     text-align: left;
-    margin-right: 20px;
+    margin:20px;
+    padding:0
 }
 #banner {
-    max-width: 100%;
     height: auto;
 }
 header {
