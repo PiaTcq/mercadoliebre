@@ -14,7 +14,7 @@ const devolverVistas = (res, ruta) => {
 app.get("/", (req, res) => {
     res.send("¡Hola, Mundo!");
 });
-app.get("/home", (req, res) => devolverVistas(res, "views/index.html"));
+app.get("/home", (req, res) => devolverVistas(res, "views/home.html"));
 app.get("/ofertas", (req, res) => {
     res.send("Acá se verá la página de ofertas")
 });
