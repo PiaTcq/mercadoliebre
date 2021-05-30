@@ -9,7 +9,7 @@
 #logo {
     background-color: #EAC926;
     text-align: left;
-    padding:5% 0 0 20px;
+    padding:3% 0 0px 20px;
 }
 #banner {
     height: auto;
@@ -42,7 +42,7 @@ main {
 main article {
     background-color: white;
     width: 70%;
-    padding: 0;
+    padding-bottom: 3%;
 }
 main div {
     background-color:#ebebeb;
@@ -64,6 +64,7 @@ h3 {
 footer {
     background-color:white;
     text-align: center;
+    padding-bottom: 5%;
 }
 footer p{
     color:#666;
