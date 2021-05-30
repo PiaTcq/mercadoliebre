@@ -2,18 +2,6 @@
 .azul #03264C; 
 .celeste :#1259c3; 
 .verde :#39b54a*/
-* { box-sizing: border-box;}
-.white-color {
-    color:#ffff;
-}
-#logo {
-    background-color: #EAC926;
-    text-align: left;
-    padding:3% 0 0px 20px;
-}
-#banner {
-    height: auto;
-}
 body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
@@ -21,56 +9,82 @@ body {
 header {
     background-color:#EAC926;
     font-size: 12px;
-    text-align: center;
-}
-.align-center {
-    text-align: center;
-}
-ul {
     text-align: left;
-    padding: 0 0 0 30%;
-}
-.align-justify {
-    text-align: justify;
+    background-size: cover;
 }
 p{
     font-size: 16px;
 }
-main {
+#logo {
+    background-color: #EAC926;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.barra-busqueda {
+    padding-left: 3%;
+}
+.cuotas-tarjeta {
     text-align: center;
 }
-main article {
-    background-color: white;
-    width: 70%;
-    padding-bottom: 3%;
+.pages-links {
+    list-style-type:none;
+    padding: 0%;
 }
-main div {
-    background-color:#ebebeb;
-    padding-left: 25%;
-}
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
-.bars {
+.bars-icon {
     color:white;
     background-color:#1259c3;
     background-size: cover;
     padding: 5px;
 }
+.bars {
+    text-align: center;
+}
+#banner {
+    height: auto;
+}
+main {
+    background-color:#ebebeb;
+    text-align: center;
+    padding-left: 15%;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.product {
+    background-color: white;
+    width: 70vw;
+    padding-bottom: 3%;
+}
 .price {
     font-size: 18px;
 }
 footer {
+    color:#666;
     background-color:white;
     text-align: center;
-    padding-bottom: 5%;
+    outline: ridge 6px #ebebeb;
 }
-footer p{
-    color:#666;
+.benefits {
+    padding: 3%;
 }
-footer i {
+.benefits i {
     color:#1259c3;
     margin-bottom: 10px;
     font-size: 2em;
 }
+.copyright {
+    text-align: left;
+}
+.contenedor {
+    width: 80vw;
+    border: solid 5px blue;
+    padding: 15px;
+    margin: auto;
+}
+.contenedor p {
+    text-align: center;
+    width: 80%;
+}
+* { box-sizing: border-box;}
