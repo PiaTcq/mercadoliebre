@@ -2,45 +2,49 @@
 .azul #03264C; 
 .celeste :#1259c3; 
 .verde :#39b54a*/
+* { box-sizing: border-box;}
 .white-color {
     color:#ffff;
 }
 #logo {
+    background-color: #EAC926;
     text-align: left;
-    padding:0 0 0 20px;
+    padding:5% 0 0 20px;
 }
 #banner {
     height: auto;
 }
-#articulo {
-    background-color: white;
-    width: 70%;
-    padding: 0;
-}
 body {
     background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     background-color:#EAC926;
-    font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    text-align: center;
 }
 .align-center {
     text-align: center;
 }
 ul {
     text-align: left;
+    padding: 0 0 0 30%;
 }
 .align-justify {
     text-align: justify;
 }
 p{
-    font-size: 16mp;
+    font-size: 16px;
 }
-maine {
+main {
     text-align: center;
 }
-maine div {
+main article {
+    background-color: white;
+    width: 70%;
+    padding: 0;
+}
+main div {
     background-color:#ebebeb;
     padding-left: 25%;
 }
@@ -59,6 +63,7 @@ h3 {
 }
 footer {
     background-color:white;
+    text-align: center;
 }
 footer p{
     color:#666;
