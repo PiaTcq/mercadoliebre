@@ -1,19 +1,17 @@
 /* CSS > basado en SELECTORES
 .azul #03264C; 
 .celeste :#1259c3; 
-.verde :#39b54a*/
-body {
+.verde :#39b54a
+
+/*body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
 }
 header {
     background-color:#EAC926;
-    font-size: 12px;
+    width: 90vw;
+    font-size: 1em;
     text-align: left;
-    background-size: cover;
-}
-p{
-    font-size: 16px;
 }
 #logo {
     background-color: #EAC926;
@@ -21,13 +19,10 @@ p{
     padding-left: 3%;
     padding-top: 3%;
 }
-.barra-busqueda {
+.search-bar {
     padding-left: 3%;
 }
-.cuotas-tarjeta {
-    text-align: center;
-}
-.pages-links {
+.pages-link {
     list-style-type:none;
     padding: 0%;
 }
@@ -37,7 +32,7 @@ p{
     background-size: cover;
     padding: 5px;
 }
-.bars {
+.bars, .cuotas-tarjeta {
     text-align: center;
 }
 #banner {
@@ -65,23 +60,22 @@ footer {
     background-color:white;
     text-align: center;
     padding: 10% 6% 3% 6%;
-    font-size: 16px;
-
 }
 .benefits {
     padding: 3%;
+    width: 100%;
 }
-.benefits-icons {
+.benefits-icon {
     color:#1259c3;
     margin-bottom: 10px;
     font-size: 2em;
 }
 .benefits-title {
     font-size: 1em;
+    margin:auto;
 }
 .benefits-description {
     font-size: 0.9em;
-    margin-bottom: 1%;
 }
 .copyright {
     text-align: left;
@@ -97,4 +91,105 @@ footer {
     text-align: center;
     width: 80%;
 }
+* { box-sizing: border-box;}  */
+
+
+
+
+
 * { box-sizing: border-box;}
+body {
+    background-color: #ebebeb;
+    width: 90vw;
+    font-family: \'Roboto\', sans-serif;
+    text-align: center;
+}
+footer {
+    color:#666;
+    background-color:white;
+    text-align: center;
+    padding: 10% 6% 3% 6%;
+    margin: auto;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+header {
+    background-color:#EAC926;
+    font-size: 1em;
+    text-align: left;
+}
+main {
+    background-color:#ebebeb;
+    text-align: center;
+    padding-left: 15%;
+}
+.bars {
+    text-align: center;
+}
+.bars-icon {
+    color:white;
+    background-color:#1259c3;
+    background-size: cover;
+    padding: 5px;
+}
+.benefits {
+    padding: 3%;
+    width: 100%;
+}
+.benefits-description {
+    font-size: 0.9em;
+}
+.benefits-icon {
+    color:#1259c3;
+
+    font-size: 2em;
+}
+.benefits-title {
+    font-size: 1em;
+    margin:auto;
+}
+.contenedor p {
+    text-align: center;
+    width: 80%;
+}
+.contenedor {
+    width: 80vw;
+    border: solid 5px blue;
+    padding: 15px;
+    margin: auto;
+}
+.copyright {
+    text-align: left;
+    font-size: 0.8em;
+}
+.cuotas-tarjeta {
+    text-align: center;
+}
+.pages-link {
+    list-style-type:none;
+    padding: 0%;
+}
+.price {
+    font-size: 18px;
+}
+.product {
+    background-color: white;
+    width: 70vw;
+    padding-bottom: 3%;
+}
+.search-bar {
+    padding-left: 3%;
+}
+#banner {
+    height: auto;
+    width:100%;
+}
+#logo {
+    background-color: #EAC926;
+    text-align: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width:35vw;
+}
