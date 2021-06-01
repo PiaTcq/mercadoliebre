@@ -99,6 +99,7 @@ footer {
 
 * { box-sizing: border-box;}
 body {
+    color:#666;
     background-color: #ebebeb;
     font-family: \'Roboto\', sans-serif;
     font-size: 3vw;
@@ -106,7 +107,6 @@ body {
     margin: auto;
 }
 footer {
-    color:#666;
     background-color:white;
     text-align: center;
     padding: 10% 6% 3% 6%;
@@ -204,7 +204,7 @@ main {
     padding-top: 3%;
     width:40vw;
 }
-.logo-envio {
+.shipping-icon {
     color: #39b54a;
     border-color: #39b54a;
     text-align: center;
