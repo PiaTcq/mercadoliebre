@@ -100,16 +100,16 @@ footer {
 * { box-sizing: border-box;}
 body {
     background-color: #ebebeb;
-    width: 90vw;
     font-family: \'Roboto\', sans-serif;
+    font-size: 3vw;
     text-align: center;
+    margin: auto;
 }
 footer {
     color:#666;
     background-color:white;
     text-align: center;
     padding: 10% 6% 3% 6%;
-    margin: auto;
 }
 h3 {
     font-size: 24px;
@@ -117,7 +117,6 @@ h3 {
 }
 header {
     background-color:#EAC926;
-    font-size: 1em;
     text-align: left;
 }
 main {
@@ -133,6 +132,8 @@ main {
     background-color:#1259c3;
     background-size: cover;
     padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 .benefits {
     padding: 3%;
@@ -191,5 +192,5 @@ main {
     text-align: left;
     padding-left: 3%;
     padding-top: 3%;
-    width:35vw;
+    width:40vw;
 }
