@@ -120,6 +120,7 @@ header {
     color: #000;
     background-color:#EAC926;
     text-align: left;
+    width: auto;
 }
 main {
     background-color:#ebebeb;
@@ -127,16 +128,16 @@ main {
     width: 90vw;
     margin: auto;
 }
+.bars {
+    text-align: center;
+}
 .bars-icon {
     color:white;
-    background-color:#1259c3;
-    background-size: cover;
-    display: block;
-    max-width: 5%;
-    padding: 5px;
+    background-color: #03264C;
+    display: inline-block;
+    padding: 3px 5px;
     border-radius: 5px;
     text-align: center;
-    margin: auto;
 }
 .benefits {
     padding: 3%;
@@ -170,6 +171,9 @@ main {
     display: inline-block;
     padding: 1% 0;
     font-size: 100%;
+}
+.main-nav-icon {
+    margin-left: 2%;
 }
 .price {
     font-size: 5vw;
@@ -214,12 +218,13 @@ main {
 .shipping-icon {
     color: #39b54a;
     border-color: #39b54a;
-    text-align: center;
+    align-self: left;
 }
 #circle-icon {
+    display: flex;
     background: white;
     border: solid 0.3vw #39b54a;
-    width: 100%;
+    width: 30%;
     height: 100%;
     border-radius: 50%;
     text-align: left;
