@@ -22,7 +22,7 @@ header {
 .search-bar {
     padding-left: 3%;
 }
-.pages-link {
+.main-nav {
     list-style-type:none;
     padding: 0%;
 }
@@ -32,7 +32,7 @@ header {
     background-size: cover;
     padding: 5px;
 }
-.bars, .cuotas-tarjeta {
+.installments-no-credit-card {
     text-align: center;
 }
 #banner {
@@ -158,7 +158,7 @@ main {
     text-align: left;
     font-size: 0.8em;
 }
-.cuotas-tarjeta {
+.installments-no-credit-card {
     text-align: center;
 }
 .main-nav {
@@ -229,11 +229,6 @@ main {
     padding-bottom: 5%;
 }
 @media (min-width: 361px) {
-    .product {
-        box-shadow: 0px 0px 10px #646464;
-        max-width: 30%;
-        margin: 1.5%;
-    }
     .bars-icon {display: none;}
     .display-flex {
         margin: 0% 5% 3% 5%;
@@ -243,6 +238,11 @@ main {
     }
     .price {
         font-size: 4vw;
+    }
+    .product {
+        box-shadow: 0px 0px 10px #646464;
+        max-width: 30%;
+        margin: 1.5%;
     }
 }
 @media (min-width: 769px) {
@@ -258,10 +258,10 @@ main {
     }
 }
 @media (max-width: 360px) {
-    .product-description {
-        display: none
-    }
     .main-nav {
         display: none;
+    }
+    .product-description {
+        display: none
     }
 }
