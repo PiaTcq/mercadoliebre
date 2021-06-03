@@ -117,9 +117,9 @@ h3 {
     font-weight: bold;
 }
 header {
+    color: #000;
     background-color:#EAC926;
     text-align: left;
-    height: 30%;
 }
 main {
     background-color:#ebebeb;
@@ -127,16 +127,16 @@ main {
     width: 90vw;
     margin: auto;
 }
-.bars {
-    text-align: center;
-}
 .bars-icon {
     color:white;
     background-color:#1259c3;
     background-size: cover;
+    display: block;
+    max-width: 5%;
     padding: 5px;
-    border-radius: 8px;
-    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
 }
 .benefits {
     padding: 3%;
@@ -228,7 +228,7 @@ main {
         max-width: 30%;
         margin: 1.5%;
     }
-    .bars {display: none;}
+    .bars-icon {display: none;}
     .display-flex {
         margin: 0% 5% 3% 5%;
         display: flex;
@@ -249,9 +249,6 @@ main {
     .product {
         box-shadow: 0px 0px 10px #646464;
         max-width: 20%;
-    }
-    .bars {
-        display: none;
     }
 }
 @media (max-width: 360px) {
