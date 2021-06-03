@@ -161,9 +161,15 @@ main {
 .cuotas-tarjeta {
     text-align: center;
 }
-.pages-link {
+.main-nav {
     list-style-type:none;
     padding: 0%;
+}
+.main-nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1% 0;
+    font-size: 100%;
 }
 .price {
     font-size: 5vw;
@@ -255,7 +261,7 @@ main {
     .product-description {
         display: none
     }
-    .pages-link {
+    .main-nav {
         display: none;
     }
 }
