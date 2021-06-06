@@ -179,6 +179,7 @@ main {
     font-size: 5vw;
     margin: auto;
     margin-top: 5%;
+    text-align: left;
 }
 .product {
     background-color: white;
@@ -200,6 +201,7 @@ main {
     margin-block-start: 0em;
     margin-block-end: 0em;
     color: #39b54a;
+    width: 70%;
 }
 .search-bar {
     padding-left: 3%;
@@ -224,14 +226,12 @@ main {
     display: flex;
     background: white;
     border: solid 0.3vw #39b54a;
-    width: 30%;
-    height: 100%;
     border-radius: 50%;
     text-align: left;
     line-height: 80%;
-    vertical-align: top;
     padding-right: 5%;
     padding-bottom: 5%;
+    width: 30%;
 }
 @media (min-width: 361px) {
     .bars-icon {display: none;}
