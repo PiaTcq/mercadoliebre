@@ -13,22 +13,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <header>
-        <img src="/imgs/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre" id="logo">
-        <div class="search-bar"><p>Lugar para poner la barra de búsqueda</p></div>
-        <div class="installments-no-credit-card">
-            <span><p><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</p></span>
+        <div>
+            <img src="/imgs/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre" id="logo">
+            <div class="search-bar-div"><input type="text" class="search-bar" ><i class="fas fa-search"></i></div>
+            <h2 class="installments-no-credit-card">
+                <i class="fas fa-hand-holding-usd"></i> 
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
         </div>
-        <ul class="main-nav">
-            <li><a href="http://localhost:3000/ofertas">Ofertas</a></li>
-            <li><a href="http://localhost:3000/tiendas-oficiales">Tiendas Oficiales</a></li>
-            <li><a href="http://localhost:3000/vender">Vender</a></li>
-            <li><a href="http://localhost:3000/ayuda">Ayuda</a></li>
-        </ul>
-        <ul class="main-nav"> 
-            <li><a href="http://localhost:3000/crear-cuenta">Creá tu cuenta</a><i class="far fa-id-card main-nav-icon"></i></li>
-            <li><a href="http://localhost:3000/ingresar">Ingresá</a><i class="fas fa-sign-in-alt main-nav-icon"></i></li>
-            <li><a href="http://localhost:3000/mis-compras">Mis compras</a><i class="fas fa-shopping-basket main-nav-icon"></i></li>
-        </ul>
+        <nav class="nav-bar">
+            <ul class="nav-left">
+                <li><a href="http://localhost:3000/ofertas">Ofertas</a></li>
+                <li><a href="http://localhost:3000/tiendas-oficiales">Tiendas Oficiales</a></li>
+                <li><a href="http://localhost:3000/vender">Vender</a></li>
+                <li><a href="http://localhost:3000/ayuda">Ayuda</a></li>
+            </ul>
+            <ul class="nav-right"> 
+                <li><a href="http://localhost:3000/crear-cuenta">Creá tu cuenta</a><i class="far fa-id-card main-nav-icon"></i></li>
+                <li><a href="http://localhost:3000/ingresar">Ingresá</a><i class="fas fa-sign-in-alt main-nav-icon"></i></li>
+                <li><a href="http://localhost:3000/mis-compras">Mis compras</a><i class="fas fa-shopping-basket main-nav-icon"></i></li>
+            </ul>
+        </nav>
         <div class="bars">
             <a href="#" class="bars-icon"><i class="fas fa-bars"></i></a>
         </div>
@@ -43,10 +48,10 @@
         <div class="display-flex">
             <article class="product">
                 <img src="/imgs/img-cafetera-moulinex.jpg" alt="Logo de cafetera" width="100%">
+                <div class="shipping-circle">
+                    <i class="fas fa-solid fa-truck shipping-icon"></i>
+                </div>
                 <section>
-                    <span id="circle-icon">
-                        <i class="fas fa-solid fa-truck shipping-icon"></i>
-                    </span> 
                     <h4 class="price">$6.770</h4>
                     <h3 class="product-discount">40% off</h3>
                     <p class="product-description">Cafetera Moulinex</p>
@@ -124,9 +129,9 @@
             <article class="product">
                 <img src="/imgs/img-tv-samsung-smart.jpg" alt="Logo de Samsung TV" width="100%">
                 <section>
-                    <span id="circle-icon">
+                    <div id="circle-icon">
                         <i class="fas fa-solid fa-truck shipping-icon"></i>
-                    </span>    
+                    </div>    
                     <h4 class="price">$23.200</h4>
                     <h3 class="product-discount">5% off</h3>
                     <p class="product-description">SmartTv Samsung 43"</p>
