@@ -98,7 +98,10 @@ flex-wrap: wrap;
 
 
 
-* { box-sizing: border-box;}
+* { box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 body {
     color:#666;
     background-color: #ebebeb;
@@ -160,11 +163,13 @@ main {
     font-size: 0.8em;
 }
 .installments-no-credit-card {
+    font-weight: 400;
     text-align: center;
 }
 .main-nav {
     list-style-type:none;
     padding: 0%;
+    display: flex;
 }
 .main-nav a {
     text-decoration: none;
@@ -174,6 +179,19 @@ main {
 }
 .main-nav-icon {
     margin-left: 2%;
+}
+.nav-bar {
+    display: flex;
+}
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+}
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
 }
 .price {
     font-size: 5vw;
@@ -204,6 +222,9 @@ main {
     width: 70%;
 }
 .search-bar {
+    width: 70%;
+}
+.search-bar-div {
     padding-left: 3%;
 }
 #banner {
@@ -217,22 +238,22 @@ main {
     padding-top: 3%;
     width:40vw;
 }
+.shipping-circle {
+    display: block;
+    border: solid 1px #39b54a;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    position: absolute;
+    right: 20px;
+}
 .shipping-icon {
     color: #39b54a;
-    border-color: #39b54a;
-    align-self: left;
 }
-#circle-icon {
-    display: flex;
-    background: white;
-    border: solid 0.3vw #39b54a;
-    border-radius: 50%;
-    text-align: left;
-    line-height: 80%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    width: 30%;
-}
+
 @media (min-width: 361px) {
     .bars-icon {display: none;}
     .display-flex {
@@ -263,7 +284,7 @@ main {
     }
 }
 @media (max-width: 360px) {
-    .main-nav {
+    .nav-bar {
         display: none;
     }
     .product-description {
