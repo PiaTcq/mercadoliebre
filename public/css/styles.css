@@ -1,104 +1,5 @@
-/* CSS > basado en SELECTORES
-.azul #03264C; 
-.celeste :#1259c3; 
-.verde :#39b54a
-
-/*body {
-    background-color: #ebebeb;
-    font-family: 'Roboto', sans-serif;
-}
-header {
-    background-color:#EAC926;
-    width: 90vw;
-    font-size: 1em;
-    text-align: left;
-}
-#logo {
-    background-color: #EAC926;
-    text-align: left;
-    padding-left: 3%;
-    padding-top: 3%;
-}
-.search-bar {
-    padding-left: 3%;
-}
-.main-nav {
-    list-style-type:none;
-    padding: 0%;
-}
-.bars-icon {
-    color:white;
-    background-color:#1259c3;
-    background-size: cover;
-    padding: 5px;
-}
-.installments-no-credit-card {
-    text-align: center;
-}
-#banner {
-    height: auto;
-}
-main {
-    background-color:#ebebeb;
-    text-align: center;
-    padding-left: 15%;
-}
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
-.product {
-    background-color: white;
-    width: 70vw;
-    padding-bottom: 3%;
-}
-.price {
-    font-size: 18px;
-}
-footer {
-    color:#666;
-    background-color:white;
-    text-align: center;
-    padding: 10% 6% 3% 6%;
-}
-.benefits {
-    padding: 3%;
-    width: 100%;
-}
-.benefits-icon {
-    color:#1259c3;
-    margin-bottom: 10px;
-    font-size: 2em;
-}
-.benefits-title {
-    font-size: 1em;
-    margin:auto;
-}
-.benefits-description {
-    font-size: 0.9em;
-}
-.copyright {
-    text-align: left;
-    font-size: 0.8em;
-}
-.contenedor {
-    width: 80vw;
-    border: solid 5px blue;
-    padding: 15px;
-    margin: auto;
-}
-.contenedor p {
-    text-align: center;
-    width: 80%;
-}
-
-display: flex;
-flex-wrap: wrap;
-* { box-sizing: border-box;}  */
-
-
-
-* { box-sizing: border-box;
+* { 
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -110,29 +11,50 @@ body {
     text-align: center;
     margin: auto;
 }
-footer {
-    background-color:white;
-    text-align: center;
-    padding: 10% 6% 3% 6%;
-}
-h3 {
-    font-size: 5vw;
-    font-weight: bold;
-}
 header {
     color: #000;
     background-color:#EAC926;
     text-align: left;
     width: auto;
 }
-main {
-    background-color:#ebebeb;
+.logo-search-bar {
+    display: flex;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+#logo {
+    background-color: #EAC926;
     text-align: left;
-    width: 90vw;
-    margin: auto;
+    padding-left: 3%;
+    padding-top: 3%;
+    width:50%;
+}
+.search-bar-div {
+    padding-left: 3%;
+    width: 41%;
+}
+.search-bar {
+    width: 83%;
+    border-radius: 3px;
+    border: solid #ebebeb 1px;
+}
+.lens {
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 10px;
+    border: solid #ebebeb 1px;
+    color: gray;
+    padding: 2px;
+}
+.installments-no-credit-card {
+    font-weight: 400;
+    padding: 10px;
+    font-size: 110%;
+    text-align: center;
 }
 .bars {
     text-align: center;
+    padding-bottom: 10px;
 }
 .bars-icon {
     color:white;
@@ -142,101 +64,39 @@ main {
     border-radius: 5px;
     text-align: center;
 }
-.benefits {
-    padding: 3%;
-    width: 100%;
-}
-.benefits-description {
-    font-size: 0.9em;
-}
-.benefits-icon {
-    color:#1259c3;
-
-    font-size: 2em;
-}
-.benefits-title {
-    font-size: 1em;
-    margin:auto;
-}
-.copyright {
-    text-align: left;
-    font-size: 0.8em;
-}
-.installments-no-credit-card {
-    font-weight: 400;
-    text-align: center;
-}
-.main-nav {
-    list-style-type:none;
-    padding: 0%;
-    display: flex;
-}
-.main-nav a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 1% 0;
-    font-size: 100%;
-}
-.main-nav-icon {
-    margin-left: 2%;
-}
-.nav-bar {
-    display: flex;
-}
-.nav-left {
-    display: flex;
-    justify-content: flex-start;
-    font-size: 0.8rem;
-}
-.nav-right {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.8rem;
-}
-.price {
-    font-size: 5vw;
-    margin: auto;
-    margin-top: 5%;
-    text-align: left;
-}
-.product {
-    background-color: white;
-    margin: 5px auto;
-}
-.product section{
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    text-align: left;
-    margin: auto;
-    border-top: solid 1px #ebebeb;
-    padding: 15px;
-}
-.product-description {
-    font-size: 3vw;
-}
-.product-discount {
-    font-size: 4vw;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    color: #39b54a;
-    width: 70%;
-}
-.search-bar {
-    width: 70%;
-}
-.search-bar-div {
-    padding-left: 3%;
-}
 #banner {
     height: auto;
     width:100%;
 }
-#logo {
-    background-color: #EAC926;
+.navbar {
+    display: none;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-flex;
+    padding: 5px 0;
+    font-size: 72%;
+}
+main {
+    background-color:#ebebeb;
     text-align: left;
-    padding-left: 3%;
-    padding-top: 3%;
-    width:40vw;
+    width: 90vw;
+    margin: auto;
+}
+h3 {
+    font-weight: bold;
+    margin:15px 0;
+}
+.product {
+    background-color: white;
+    margin: 5px auto;
+    padding-bottom: 10px;
 }
 .shipping-circle {
     display: block;
@@ -248,14 +108,182 @@ main {
     height: 30px;
     background-color: #fff;
     position: absolute;
-    right: 20px;
+    right: 25px;
 }
 .shipping-icon {
     color: #39b54a;
 }
+.product section{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align: left;
+    margin: auto;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+}
+.price {
+    font-size: 5vw;
+}
+.price-discount {
+    display: flex;
+    align-items: center;
+}
+.price-discount h4 {
+    width: 30%;
+}
+.price-discount h3 {
+    width: 70%;
+}
+.product-description {
+    font-size: 2vw;
+    padding-left: 15px;
+}
+.product-discount {
+    font-size: 4vw;
+    color: #39b54a;
+    width: 70%;
+    padding-left: 5px;
+}
+footer {
+    background-color:white;
+    text-align: center;
+    padding: 10% 6% 3% 6%;
+}
+.benefits {
+    padding: 3%;
+    width: 100%;
+}
+.benefits-description {
+    font-size: 0.9em;
+}
+.benefits-icon {
+    color:#1259c3;
+    font-size: 2em;
+}
+.benefits-title {
+    font-size: 1em;
+    margin:auto;
+}
+.copyright {
+    text-align: left;
+    font-size: 0.8em;
+}
 
+
+/* ----------------------- Mobile ---------------------------- */
+@media (max-width: 360px) {
+    .navbar {
+        display: none;
+    }
+    h3 {
+        font-size: 6vw;
+    }
+    .product-description {
+        display: none
+    }
+}
+
+/* ------------------------ Tablet --------------------------- */
 @media (min-width: 361px) {
-    .bars-icon {display: none;}
+    header {
+        font-size: 11px;
+    }
+    .display-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    .installments-no-credit-card {
+        font-size: 0.5rem;
+        align-self: center;
+        width: 45%;
+        text-align: left;
+        padding: 0%;
+    }
+    .bars-icon {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .navbar-right {
+        display: flex;
+        align-items: flex-end;
+        max-width: 45%;
+    }
+    .navbar-left {
+        display: flex;
+        align-items: flex-end;
+        max-width: 45%;
+    }
+    .navbar a i{
+        padding-left: 2px;
+    }
+    .navbar li {
+        margin: 0 5px;
+        text-align: left;
+
+    }
+    h3 {
+        font-size: 3vw;
+        padding-left: 15px;
+    }
+    .product {
+        box-shadow: 0px 0px 10px #646464;
+        max-width: 45%;
+    }
+    .price {
+        font-size: 3vw;
+    }
+    .product-discount {
+        font-size: 3vw;
+    }
+    .shipping-circle {
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    /* ------------------------ Desktop -------------------------- */
+    @media (min-width: 769px){
+        .search-bar-div {
+            width: 40%;
+        }
+        .installments-no-credit-card {
+            font-size: 0.75rem;
+        }.navbar {
+            padding: 0 20px;
+        }
+        .navbar a {
+            font-size: 100%;
+        }
+        .product {
+            max-width: 20%;
+        }
+        .product .price {
+            font-size: 80%;
+        }
+        .product .product-description {
+            font-size: 60%;
+        }
+        .product .product-discount {
+            font-size: 67%;
+        }
+        .display-flex {
+            display: flex;
+            flex-wrap: wrap;
+            width: 95vw;
+            margin: auto; 
+        }
+    }
+    /* .bars-icon {display: none;}
     .display-flex {
         margin: 0% 5% 3% 5%;
         display: flex;
@@ -267,27 +295,9 @@ main {
     }
     .product {
         box-shadow: 0px 0px 10px #646464;
-        max-width: 30%;
+        width: 40%;
         margin: 1.5%;
-    }
+    } */
 }
-@media (min-width: 769px) {
-    .display-flex {
-        display: flex;
-        flex-wrap: wrap;
-        width: 95vw;
-        margin: auto; 
-    }
-    .product {
-        box-shadow: 0px 0px 10px #646464;
-        max-width: 20%;
-    }
-}
-@media (max-width: 360px) {
-    .nav-bar {
-        display: none;
-    }
-    .product-description {
-        display: none
-    }
-}
+
+/* ------------------------ Desktop --------------------------- */
