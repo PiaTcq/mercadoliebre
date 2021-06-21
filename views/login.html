@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Bienvenido a MercadoLiebre</title>
+    <link rel="stylesheet" href="css/styles.css"></link>
+    <link rel="stylesheet" href="css/loginStyles.css"></link>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6833924c9e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <header>
+        <div class="top-bar">
+            <div class="logo-search-bar">
+                <img src="/imgs/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre" id="logo">
+                <form class="search-bar-div">
+                    <input type="search" class="search-bar"><i class="fas fa-search lens"></i>
+                </form>
+            </div>
+            <h2 class="installments-no-credit-card">
+                <i class="fas fa-hand-holding-usd"></i> 
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-left">
+                <li><a href="http://localhost:3000/ofertas">Ofertas</a></li>
+                <li><a href="http://localhost:3000/tiendas-oficiales">Tiendas Oficiales</a></li>
+                <li><a href="http://localhost:3000/vender">Vender</a></li>
+                <li><a href="http://localhost:3000/ayuda">Ayuda</a></li>
+            </ul>
+            <ul class="navbar-right"> 
+                <li><a href="http://localhost:3000/register">Creá tu cuenta <i class="far fa-id-card navbar-right-icon"></i></a></li>
+                <li><a href="http://localhost:3000/login">Ingresá <i class="fas fa-sign-in-alt navbar-rignt-icon"></i></a></li>
+                <li><a href="http://localhost:3000/mis-compras">Mis compras <i class="fas fa-shopping-basket navbar-right-icon"></i></a></li>
+            </ul>
+        </nav>
+        <div class="bars">
+            <a href="#" class="bars-icon"><i class="fas fa-bars"></i></a>
+        </div>
+    </header>
+    <img src="/imgs/img-home-banner.jpg" id="banner">
+    <main class="main-login">
+        <form action="/home" method="GET">
+            <div>
+                <label for="nombreApellido">
+                    <input type="text" name="nombreApellido" placeholder="Nombre de usuario">
+                </label>
+            </div>
+            <div>
+                <label for="passwordUsuario">
+                    <input type="password" name="passwordUsuario" placeholder="Elegí tu contraseña">
+                </label>
+            </div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

@@ -10,6 +10,7 @@ body {
     font-size: 3vw;
     text-align: center;
     margin: auto;
+    padding-bottom: 15px;
 }
 header {
     color: #000;
@@ -31,10 +32,10 @@ header {
 }
 .search-bar-div {
     padding-left: 3%;
-    width: 41%;
+    width: 50%;
 }
 .search-bar {
-    width: 83%;
+    width: 80%;
     border-radius: 3px;
     border: solid #ebebeb 1px;
 }
@@ -158,7 +159,7 @@ footer {
 }
 .benefits-icon {
     color:#1259c3;
-    font-size: 2em;
+    font-size: 1em;
 }
 .benefits-title {
     font-size: 1em;
@@ -179,7 +180,7 @@ footer {
         font-size: 6vw;
     }
     .product-description {
-        display: none
+        display: none;
     }
 }
 
@@ -199,10 +200,9 @@ footer {
         padding-bottom: 10px;
     }
     .installments-no-credit-card {
-        font-size: 0.5rem;
+        font-size: 0.52rem;
         align-self: center;
-        width: 45%;
-        text-align: left;
+        width: 85%;
         padding: 0%;
     }
     .bars-icon {
@@ -212,16 +212,19 @@ footer {
         display: flex;
         justify-content: space-between;
         padding: 0 10px;
+        height: 40%;
     }
     .navbar-right {
         display: flex;
         align-items: flex-end;
-        max-width: 45%;
+        max-width: 50%;
+        font-size: 0.62rem;
     }
     .navbar-left {
         display: flex;
         align-items: flex-end;
-        max-width: 45%;
+        max-width: 50%;
+        font-size: 0.62rem;
     }
     .navbar a i{
         padding-left: 2px;
@@ -257,12 +260,18 @@ footer {
             width: 40%;
         }
         .installments-no-credit-card {
-            font-size: 0.75rem;
+            font-size: 0.86rem;
         }.navbar {
             padding: 0 20px;
         }
         .navbar a {
-            font-size: 100%;
+            font-size: 0.8rem;
+        }
+        main {
+            width: 95vw;
+        }
+        h3 {
+            font-size: 2.5vw;
         }
         .product {
             max-width: 20%;
@@ -281,6 +290,24 @@ footer {
             flex-wrap: wrap;
             width: 95vw;
             margin: auto; 
+        }
+        .footer-desktop {
+            display: flex;
+        }
+        .benefits {
+            font-size: 13px;
+            padding: 1%;
+        }
+        .benefits-icon {
+            font-size: 2em;
+        }
+        .benefits-icon i:hover {
+            color: #5c2fb5;
+        }
+        .copyright {
+            font-size: 12px;
+            padding-left: 10px;
+            padding-top: 5px;
         }
     }
     /* .bars-icon {display: none;}

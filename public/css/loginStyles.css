@@ -1,0 +1,8 @@
+.main-login {
+    text-align: center;
+    padding: 15px 0;
+}
+.main-login button:hover {
+    background-color: #0022AA;
+    color: white;
+}
