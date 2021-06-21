@@ -40,3 +40,9 @@ input {
     flex-direction: column;
     max-width: 45%;
 }
+.form-box input[type=password] {
+    width: 40%;
+    height: 30px;
+    padding: 3px 0;
+    border-radius: 6.5px;
+}
