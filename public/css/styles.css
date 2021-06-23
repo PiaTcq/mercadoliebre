@@ -128,7 +128,7 @@ h3 {
 }
 .shipping-icon {
     color: #39b54a;
-    transition: transform .7s ease-in-out;
+    transition: transform .7s cubic-bezier(1, -0.5, 0.5, 1);
 }
 .shipping-icon:hover {
     transform: rotate(360deg);
@@ -196,17 +196,16 @@ footer {
 /* ----------------------- Mobile ---------------------------- */
 @media (min-width: 170px) {
     .navbar {
-        display: none;
+        visibility: hidden;
     }
     h3 {
         font-size: 6vw;
     }
     .product-description {
-        display: none;
-        transition: all .6s;
+        visibility: hidden;
     }
     article:hover .product-description {
-            display: block;
+        visibility: visible;
     }
 }
 
