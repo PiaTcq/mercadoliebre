@@ -289,6 +289,9 @@ footer {
 
     /* ------------------------ Desktop -------------------------- */
     @media (min-width: 1024px){
+        header {
+            padding-bottom: 25px;
+        }
         .search-bar-div {
             width: 94%;
             height: 30px;
