@@ -128,7 +128,7 @@ h3 {
 }
 .shipping-icon {
     color: #39b54a;
-    transition: transform .7s cubic-bezier(1, -0.5, 0.5, 1);
+    transition: transform .7s cubic-bezier(1, -0.3, 0.3, 1);
 }
 .shipping-icon:hover {
     transform: rotate(360deg);
