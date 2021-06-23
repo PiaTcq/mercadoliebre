@@ -6,7 +6,7 @@ let publicPath = path.resolve(__dirname, "./public");
 
 app.use(express.static(publicPath));
 
-app.listen(3000, () => console.log("Escuchando puerto 3000"));
+app.listen(process.env.PORT || 3000, () => console.log("Escuchando puerto 3000"));
 
 const devolverVistas = (res, ruta) => {
     res.sendFile(path.resolve(__dirname, ruta));
@@ -29,5 +29,3 @@ app.get("/ayuda", (req, res) => {
 });
 app.get("/register", (req, res) => devolverVistas(res, "views/register.html"));
 app.get("/login", (req, res) => devolverVistas(res, "views/login.html"));
-
-app.get("/prueba", (req, res) => devolverVistas(res, "views/prueba.html"));
