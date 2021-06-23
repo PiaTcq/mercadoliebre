@@ -48,6 +48,7 @@ header {
     padding: 2px;
     position: relative;
     right: 20px;
+    cursor: pointer;
 }
 .installments-no-credit-card {
     font-weight: 400;
@@ -202,10 +203,11 @@ footer {
         font-size: 6vw;
     }
     .product-description {
-        visibility: hidden;
+        opacity: 0;
+        transition: opacity .6s;
     }
     article:hover .product-description {
-        visibility: visible;
+        opacity: 1;
     }
 }
 
