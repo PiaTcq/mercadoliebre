@@ -1,0 +1,58 @@
+main form {
+    padding-top: 15px;
+}
+input {
+    border: transparent;
+    margin: 10px 0;
+}
+.register-form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.form-box input[type=text], .form-box input[type=date]{
+    width: 100%;
+    height: 40px;
+    padding: 3px 0;
+    border-radius: 6.5px;
+}
+.form-box input[type=radio], .form-box input[type=checkbox] {
+    margin: 15px;
+}
+.user-profil {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.user-interest-categories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.user-interest-categories label {
+    font-weight: normal;
+    margin: 0px;
+    font-size: 13px;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+}
+.form-box input[type=password] {
+    width: 40%;
+    height: 30px;
+    padding: 3px 0;
+    border-radius: 6.5px;
+}
+button[type=submit], button[type=reset] {
+    padding: 4px;
+    margin: 0px 5px;
+    transition: all .65s;
+}
+button[type=submit]:hover, button[type=reset]:hover {
+    background-color: #0022AA;
+    color: white;
+    border-radius: 4px;
+}
