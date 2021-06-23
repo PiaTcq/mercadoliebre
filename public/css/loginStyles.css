@@ -1,8 +1,25 @@
 .main-login {
     text-align: center;
     padding: 15px 0;
+    width: 70vw;
 }
-.main-login button:hover {
+input {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: transparent;
+}
+.main-login button {
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: transparent;
+    margin: 20px 0px;
     background-color: #0022AA;
     color: white;
+    font-size: 16px;
+}
+.footer-login {
+    margin: 15px;
 }

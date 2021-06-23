@@ -16,7 +16,7 @@
     <header>
         <div class="top-bar">
             <div class="logo-search-bar">
-                <img src="/imgs/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre" id="logo">
+                <a href="/home" id="logo"><img src="/imgs/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre"></a> 
                 <form class="search-bar-div">
                     <input type="search" class="search-bar"><i class="fas fa-search lens"></i>
                 </form>
@@ -28,39 +28,38 @@
         </div>
         <nav class="navbar">
             <ul class="navbar-left">
-                <li><a href="http://localhost:3000/ofertas">Ofertas</a></li>
-                <li><a href="http://localhost:3000/tiendas-oficiales">Tiendas Oficiales</a></li>
-                <li><a href="http://localhost:3000/vender">Vender</a></li>
-                <li><a href="http://localhost:3000/ayuda">Ayuda</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
             </ul>
             <ul class="navbar-right"> 
-                <li><a href="http://localhost:3000/register">Creá tu cuenta <i class="far fa-id-card navbar-right-icon"></i></a></li>
-                <li><a href="http://localhost:3000/login">Ingresá <i class="fas fa-sign-in-alt navbar-rignt-icon"></i></a></li>
-                <li><a href="http://localhost:3000/mis-compras">Mis compras <i class="fas fa-shopping-basket navbar-right-icon"></i></a></li>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card navbar-right-icon"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt navbar-rignt-icon"></i></a></li>
+                <li><a href="/mis-compras">Mis compras <i class="fas fa-shopping-basket navbar-right-icon"></i></a></li>
             </ul>
         </nav>
         <div class="bars">
             <a href="#" class="bars-icon"><i class="fas fa-bars"></i></a>
         </div>
     </header>
-    <img src="/imgs/img-home-banner.jpg" id="banner">
     <main>
         <form action="/home" method="GET" class="register-form">
             <div class="form-box">
                 <label for="nameSurname"></label>
-                <input type="text" name="nameSurname" placeholder="Nombre y apellido">
+                <input type="text" name="nameSurname" placeholder="Nombre y apellido" required>
             </div>
             <div class="form-box">
                 <label for="username"></label>
-                <input type="text" name="username" placeholder="Nombre de usuario">
+                <input type="text" name="username" placeholder="Nombre de usuario" required>
             </div>
             <div class="form-box">
                 <label for="userDateBirth">Fecha de nacimiento:</label>
-                <input type="date" name="userDateBirth">
+                <input type="date" name="userDateBirth" required>
             </div>
             <div class="form-box">
                 <label for="userAdress"></label>
-                <input type="text" name="userAdress" placeholder="Domicilio">
+                <input type="text" name="userAdress" placeholder="Domicilio" required>
             </div>
             <div class="form-box">
                 <label for="userProfil">Perfil del usuario:</label>
@@ -85,11 +84,11 @@
             </div>
             <div class="form-box">
                 <label for="userPassword">Contraseña</label>
-                <input type="password" name="userPassword">
+                <input type="password" name="userPassword" required>
             </div>
             <div class="form-box">
                 <label for="userConfirmPassword">Confirmar contraseña</label>
-                <input type="password" name="userConfirmPassword">
+                <input type="password" name="userConfirmPassword" required>
             </div class="form-box">
             <div>
                 <button type="submit">Enviar</button>
@@ -97,5 +96,33 @@
             </div>
         </form>
     </main>
+    <br>
+    <br>
+    <footer>
+        <div class="footer-desktop">
+            <section class="benefits">
+                <div class="benefits-icon">
+                    <i class="fas fa-credit-card"></i></div>
+                <div class="benefits-title">
+                    <strong>Pagá con tarjeta o en efectivo</strong></div>
+                <div class="benefits-description">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</div>
+            </section>
+            <section class="benefits">
+                <div class="benefits-icon">
+                    <i class="fas fa-gift"></i></div>
+                <div class="benefits-title">
+                    <strong>Envío gratis desde $2.500</strong></div>
+                <div class="benefits-description">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</div>
+            </section>
+            <section class="benefits">
+                <div class="benefits-icon">
+                    <i class="fas fa-user-shield"></i></div>
+                <div class="benefits-title">
+                    <strong>Seguridad de principio a fin</strong></div>
+                <div class="benefits-description">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</div>
+            </section>
+        </div>
+        <p class="copyright">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </footer>
 </body>
 </html>

@@ -46,3 +46,13 @@ input {
     padding: 3px 0;
     border-radius: 6.5px;
 }
+button[type=submit], button[type=reset] {
+    padding: 4px;
+    margin: 0px 5px;
+    transition: all .65s;
+}
+button[type=submit]:hover, button[type=reset]:hover {
+    background-color: #0022AA;
+    color: white;
+    border-radius: 4px;
+}
